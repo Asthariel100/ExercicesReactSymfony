@@ -1,0 +1,74 @@
+
+@use "./app.scss" as *;
+
+.banner{
+
+    position: fixed;
+    width: 100%;
+    height: 13vh;
+    color: white;
+    z-index: 1;
+
+    .banner-main{
+
+    position: relative;
+    width: 99%;
+    height: 80%;
+    margin: auto;
+    background: url(../styles/img/bluesky.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px 0px 40px 40px;
+    z-index: 3;
+    }
+
+    .banner-second{
+        position: absolute;
+        width: 100%;
+        height: 90%;
+        margin: auto;
+        background: url(../styles/img/gold.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        filter: drop-shadow(3px 15px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 0px 0px 40px 40px;
+        z-index: 2;
+        
+    }
+    .banner-third{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+
+        background: url(../styles/img/bluesky.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+    .menu-items{
+
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        font-size: 32px;
+    }
+    .selected{
+        padding: 0% 2% 0% 2%;
+        background: url(./img/gold.png);
+        filter: drop-shadow(3px 15px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 40px;
+    }
+
+    ul{
+        padding: 1%;
+        margin: 0%;
+    }
+    a{
+        text-decoration: none;
+    }
+      
+}

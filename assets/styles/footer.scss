@@ -1,0 +1,22 @@
+.footer{
+
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height: 16vh;
+    padding:0;
+
+
+
+    .footer-background{
+
+        position:relative;
+        height: 100%;
+        padding-top: 5%;
+        transform: scale(1.1);
+        background: url(../styles/img/seafooter.png);
+        background-size: cover;
+        background-position: center;
+
+    }
+}
